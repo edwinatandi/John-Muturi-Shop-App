@@ -1,0 +1,77 @@
+
+.shopName{
+	background: skyblue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	border-radius: 10px;
+
+}
+.shopCatalog{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	border-radius: 10px;
+}
+.userCart{
+   background-color: #f7f9f7;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.mybtn{
+   display: inline-block;
+   padding:5px 10px;
+   cursor: pointer;
+   margin-top: 3px;
+   margin-bottom: 3px;
+   font-size: 18px;
+   color:var(--white);
+   border-radius: 5px;
+   text-transform: capitalize;
+}
+
+
+.alert{
+   position: sticky;
+   top:0; left:0; right:0;
+   padding:15px 10px;
+   background-color: var(--white);
+   text-align: center;
+   z-index: 1000;
+   box-shadow: var(--box-shadow);
+   color:var(--black);
+   font-size: 20px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+.inner-div{
+   background:#f2f2f2;
+   margin: 2px 5px 5px 3px;
+   border-radius: 5px;
+   padding: 5px;
+}
+.form-container{
+   min-height: 70vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
